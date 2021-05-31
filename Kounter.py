@@ -105,7 +105,7 @@ class App:
         self.outtext.set("0")
 
 
-# if __name__ == "__main__":
-    #root = tk.Tk()
-    #app = App(root)
-    # root.mainloop()
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = App(root)
+    root.mainloop()
