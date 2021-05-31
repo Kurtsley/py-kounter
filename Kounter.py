@@ -78,6 +78,7 @@ class App:
 
         elif self.clap_clicked_once and not self.clap_clicked_twice:
             self.second_click()
+
         else:
             self.reset()
 
@@ -99,6 +100,7 @@ class App:
         self.outtext.set(self.num)
 
     def reset(self):
+        """Resets all flags and labels."""
         self.clap_clicked_once = False
         self.clap_clicked_twice = False
         self.text.set("Start")
